@@ -1,0 +1,76 @@
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+code {
+    color: #E01A76;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.app {
+    /*background: #209cee;*/
+    padding: 30px;
+    height: 100vh;
+}
+
+.todoform {
+    margin-bottom: 5px;
+}
+
+    .todoform input {
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+        border: 1px solid #dadada;
+        border-radius: 3px;
+        padding: 3px 10px;
+        width: 100%;
+    }
+
+.todo-list {
+    border-radius: 4px;
+    padding: 5px;
+  
+    /*margin: 0 auto;*/
+}
+
+    .todo-list h3 {
+        text-align: center;
+    }
+
+.todo {
+    background: #fff;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+    padding: 3px 10px;
+    font-size: 12px;
+    margin-bottom: 6px;
+    border-radius: 3px;
+    display: flex;
+    border: 1px solid #dadada;
+    /*align-items: center;*/
+    /*justify-content: space-between;*/
+}
+
+    .todo input[type="radio"], input[type="checkbox"] {
+        margin-top: 3px;
+        margin-right: 5px
+    }
+
+.input {
+    width: 100%;
+    padding: 3px 10px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+    display: flex;
+}
+
+.done{
+    text-decoration:line-through;
+}
+.undone{
+    text-decoration:none;
+}
